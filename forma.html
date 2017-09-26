@@ -78,69 +78,88 @@
       </div>
     </header>
 
-  <main class="main-news">
-    <div class="main-news__container">
-      <h1 class="page-title page-title--item">Фото</h1>
-      <div class="main-news__wrapper">
-        <article class="news-item news-item--foto">
-          <h1 class="news-item__title">
-            Олег Тягнибок: Закони, що їх продукує нинішній парламент,
-            написані в інтересах олігархії...
-          </h1>
-          <span class="news-item__time">10.07.17 16:30</span>
-          <div class="swiper-container gallery-top">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide" style="background-image:url('img/sidebar-foto.jpg')"></div>
-              <div class="swiper-slide" style="background-image:url('img/slide1.jpg')"></div>
-              <div class="swiper-slide" style="background-image:url('img/slide1.jpg')"></div>
-              <div class="swiper-slide" style="background-image:url('img/slide1.jpg')"></div>
-            </div>
-            <!-- Add Arrows -->
-            <div class="swiper-button-next swiper-button-white swiper-button-my"></div>
-            <div class="swiper-button-prev swiper-button-white swiper-button-my"></div>
-          </div>
-          <div class="swiper-container gallery-thumbs">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide" style="background-image:url('img/sidebar-foto.jpg')"></div>
-              <div class="swiper-slide" style="background-image:url('img/slide1.jpg')"></div>
-              <div class="swiper-slide" style="background-image:url('img/slide1.jpg')"></div>
-              <div class="swiper-slide" style="background-image:url('img/slide1.jpg')"></div>
-            </div>
-            <div class="swiper-button-next swiper-button-white swiper-button-my"></div>
-            <div class="swiper-button-prev swiper-button-white swiper-button-my"></div>
-          </div>
-          <div class="news-item__share">
-            <span>Поділитись:</span>
-            <ul class="news-item__share-list">
-              <a href="#"><li class="news-item__share-link  news-item__share-link--fb"></li></a>
-              <a href="#"><li class="news-item__share-link  news-item__share-link--tw"></li></a>
-            </ul>
-          </div>
-        </article>
+  <main class="main-join">
+    <div class="main-join__container">
+      <h1 class="page-title">Звернутись до нас</h1>
+      <div class="main-join__wrapper">
+        <form method="post" action="" class="main-join__contact-us" required>
+          <input type="text" name="name" placeholder="Прізвище  Ім'я  По-Батькові" required>
+          <input type="tel" class="phone-mask" name="phone" placeholder="Контактний телефон" required>
+          <input type="email" name="email" placeholder="E-mail" required>
+          <input type="date" name="date" placeholder="Дата народження" required>
+          <input type="text" name="city" placeholder="Місто проживання" required>
+          <input type="text" name="social" placeholder="Соц мережі">
+          <input type="submit" value="Надіслати" required>
+        </form>
         <aside class="sidebar">
           <div class="sidebar__wrapper">
-          <div class="sidebar__search">
-            <h3 class="block__title">Пошук по регіонам</h3>
-            <canvas id="myCanvas" height="280">
-              <ul>
-                <li><a href="#" target="_blank">Київ</a></li>
-                <li><a href="#">Полтава</a></li>
-                <li><a href="#">Дніпро</a></li>
-                <li><a href="#">Львів</a></li>
-                <li><a href="#">Донецьк</a></li>
-                <li><a href="#">Луганськ</a></li>
-                <li><a href="#">Одесса</a></li>
-                <li><a href="#">Миколаїв</a></li>
-                <li><a href="#">Вінниця</a></li>
-                <li><a href="#">Київ</a></li>
-                <li><a href="#">Мукачево</a></li>
-                <li><a href="#">Маріуполь</a></li>
-                <li><a href="#">Миргород</a></li>
-                <li><a href="#">Херсон</a></li>
-                <li><a href="#">Житомир</a></li>
-              </ul>
-            </canvas>
-          </div>
+            <div class="sidebar__latest-news">
+              <h3 class="block__title">Останні новини</h3>
+              <div class="swiper-container  swiperLatNews">
+                <div class="swiper-wrapper">
+
+                  <div class="sidebar__latest-news-item  swiper-slide">
+                    <div class="sidebar__latest-news-img">
+                      <img src="img/sidebar-foto.jpg" alt="">
+                    </div>
+                    <a href="#" class="sidebar__latest-news-description">
+                      Олег Тягнибок: Закони, що їх продукує нинішній парламент,
+                      написанів інтересах олігархії...
+                      <span class="sidebar__latest-news-time">10.07.17 16:30</span>
+                    </a>
+                  </div>
+
+                  <div class="sidebar__latest-news-item  swiper-slide">
+                    <div class="sidebar__latest-news-img">
+                      <img src="img/sidebar-foto.jpg" alt="">
+                    </div>
+                    <a href="#" class="sidebar__latest-news-description">
+                      Олег Тягнибок: Закони, що їх продукує нинішній парламент,
+                      написанів інтересах олігархії...
+                      <span class="sidebar__latest-news-time">10.07.17 16:30</span>
+                    </a>
+                  </div>
+
+                  <div class="sidebar__latest-news-item  swiper-slide">
+                    <div class="sidebar__latest-news-img">
+                      <img src="img/sidebar-foto.jpg" alt="" width="135">
+                    </div>
+                    <a href="#" class="sidebar__latest-news-description">
+                      Олег Тягнибок: Закони, що їх продукує нинішній парламент,
+                      написанів інтересах олігархії...
+                      <span class="sidebar__latest-news-time">10.07.17 16:30</span>
+                    </a>
+                  </div>
+
+                  <div class="sidebar__latest-news-item  swiper-slide">
+                    <div class="sidebar__latest-news-img">
+                      <img src="img/sidebar-foto.jpg" alt="">
+                    </div>
+                    <a href="#" class="sidebar__latest-news-description">
+                      Олег Тягнибок: Закони, що їх продукує нинішній парламент,
+                      написанів інтересах олігархії...
+                      <span class="sidebar__latest-news-time">10.07.17 16:30</span>
+                    </a>
+                  </div>
+
+                  <div class="sidebar__latest-news-item  swiper-slide">
+                    <div class="sidebar__latest-news-img">
+                      <img src="img/sidebar-foto.jpg" alt="">
+                    </div>
+                    <a href="#" class="sidebar__latest-news-description">
+                      Олег Тягнибок: Закони, що їх продукує нинішній парламент,
+                      написанів інтересах олігархії...
+                      <span class="sidebar__latest-news-time">10.07.17 16:30</span>
+                    </a>
+                  </div>
+
+
+                </div>
+                <div class="swiper-button-next  swiper-button-white  swiper-button-my"></div>
+                <div class="swiper-button-prev  swiper-button-white  swiper-button-my"></div>
+              </div>
+            </div>
+
           <div class="news-block__foto  sidebar__foto">
             <h3 class="block__title">Фото</h3>
             <div class="news-block__list  swiper-container  swiperSidebar">
@@ -200,73 +219,6 @@
                     написанів інтересах олігархії...
                   </a>
                 </div>
-
-              </div>
-              <div class="swiper-button-next  swiper-button-white  swiper-button-my"></div>
-              <div class="swiper-button-prev  swiper-button-white  swiper-button-my"></div>
-            </div>
-          </div>
-
-          <div class="sidebar__latest-news">
-            <h3 class="block__title">Останні новини</h3>
-            <div class="swiper-container  swiperLatNews">
-              <div class="swiper-wrapper">
-
-                <div class="sidebar__latest-news-item  swiper-slide">
-                  <div class="sidebar__latest-news-img">
-                    <img src="img/sidebar-foto.jpg" alt="">
-                  </div>
-                  <a href="#" class="sidebar__latest-news-description">
-                    Олег Тягнибок: Закони, що їх продукує нинішній парламент,
-                    написанів інтересах олігархії...
-                    <span class="sidebar__latest-news-time">10.07.17 16:30</span>
-                  </a>
-                </div>
-
-                <div class="sidebar__latest-news-item  swiper-slide">
-                  <div class="sidebar__latest-news-img">
-                    <img src="img/sidebar-foto.jpg" alt="">
-                  </div>
-                  <a href="#" class="sidebar__latest-news-description">
-                    Олег Тягнибок: Закони, що їх продукує нинішній парламент,
-                    написанів інтересах олігархії...
-                    <span class="sidebar__latest-news-time">10.07.17 16:30</span>
-                  </a>
-                </div>
-
-                <div class="sidebar__latest-news-item  swiper-slide">
-                  <div class="sidebar__latest-news-img">
-                    <img src="img/sidebar-foto.jpg" alt="" width="135">
-                  </div>
-                  <a href="#" class="sidebar__latest-news-description">
-                    Олег Тягнибок: Закони, що їх продукує нинішній парламент,
-                    написанів інтересах олігархії...
-                    <span class="sidebar__latest-news-time">10.07.17 16:30</span>
-                  </a>
-                </div>
-
-                <div class="sidebar__latest-news-item  swiper-slide">
-                  <div class="sidebar__latest-news-img">
-                    <img src="img/sidebar-foto.jpg" alt="">
-                  </div>
-                  <a href="#" class="sidebar__latest-news-description">
-                    Олег Тягнибок: Закони, що їх продукує нинішній парламент,
-                    написанів інтересах олігархії...
-                    <span class="sidebar__latest-news-time">10.07.17 16:30</span>
-                  </a>
-                </div>
-
-                <div class="sidebar__latest-news-item  swiper-slide">
-                  <div class="sidebar__latest-news-img">
-                    <img src="img/sidebar-foto.jpg" alt="">
-                  </div>
-                  <a href="#" class="sidebar__latest-news-description">
-                    Олег Тягнибок: Закони, що їх продукує нинішній парламент,
-                    написанів інтересах олігархії...
-                    <span class="sidebar__latest-news-time">10.07.17 16:30</span>
-                  </a>
-                </div>
-
 
               </div>
               <div class="swiper-button-next  swiper-button-white  swiper-button-my"></div>
